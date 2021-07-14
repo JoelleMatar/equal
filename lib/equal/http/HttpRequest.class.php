@@ -88,7 +88,9 @@ class HttpRequest extends HttpMessage {
                 // accept any content type
                 'Accept'            => '*/*',
                 // ask for unicode charset
-                'Accept-Charset'    => 'UTF-8'
+                'Accept-Charset'    => 'UTF-8',
+
+                "Access-Control-Allow-Origin"   => "*"
             ];
             // retrieve content type
             $content_type = $this->getHeaders()->getContentType();

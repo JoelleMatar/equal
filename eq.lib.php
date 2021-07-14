@@ -221,6 +221,7 @@ namespace {
         flush();
 */
 }
+
 namespace config {
     use equal\services\Container;
 
