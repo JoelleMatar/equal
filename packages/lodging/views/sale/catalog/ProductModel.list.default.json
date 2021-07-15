@@ -1,0 +1,27 @@
+{
+    "name": "ProductModel",
+    "layout": {
+        "items": [
+            {
+                "type": "field",
+                "value": "qty_accounting_method",
+                "width": "40%"
+            },
+            {
+                "type": "field",
+                "value": "has_duration",
+                "width": "20%"
+            },
+            {
+                "type": "field",
+                "value": "is_meal",
+                "width": "20%"
+            },
+            {
+                "type": "field",
+                "value": "is_accomodation",
+                "width": "20%"
+            }
+        ]
+    }
+}
